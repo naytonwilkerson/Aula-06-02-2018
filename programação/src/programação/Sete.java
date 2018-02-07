@@ -8,7 +8,7 @@ public class Sete {
 		
 		
 		
-		for(int i = 101; i < 300;i++){
+		for(int i = 299; i >= 101;i--){
 			
 			if(i%2!=0) {
 				
