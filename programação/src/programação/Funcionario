@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class funcionario {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		funcionarioC c = new funcionarioC();
+
+		for (int i = 0; i < 3; i++) {
+
+			System.out.print("Nome: ");
+			c.nome = scanner.next();
+			System.out.print("Horas trabalhadas: ");
+			c.horastrabalhadas = scanner.nextDouble();
+			System.out.print("Valor hora: ");
+			c.valorHora = scanner.nextDouble();
+
+			double salario = c.calculaSalario(c.horastrabalhadas, c.valorHora);
+			
+			System.out.println();
+
+			System.out.println("Nome: "+c.nome);
+			System.out.printf("Salario: %.2f\n", salario);
+			
+			System.out.println();
+
+		}
+
+	}
+}
+
+class funcionarioC {
+
+	String nome;
+	static double horastrabalhadas;
+	static double valorHora;
+
+	public static double calculaSalario(double valorhora, double horas) {
+		return valorHora * horastrabalhadas;
+	}
+
+}
