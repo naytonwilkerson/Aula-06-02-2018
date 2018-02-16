@@ -9,5 +9,4 @@ public class paciente {
 		return peso/(altura*altura);
 	}
 	
-
 }
