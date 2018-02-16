@@ -18,7 +18,6 @@ public class Circulo {
 			double perimetro = c.calculaPerimetro(c.raio);
 
 			System.out.println(perimetro);
-
 		}
 	}
 }
