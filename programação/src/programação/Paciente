@@ -8,5 +8,4 @@ public class paciente {
 	public static double calculaIMC() {
 		return peso/(altura*altura);
 	}
-	
 }
