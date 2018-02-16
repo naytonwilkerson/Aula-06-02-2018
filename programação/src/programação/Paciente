@@ -1,0 +1,13 @@
+
+public class paciente {
+
+	String nome;
+	static double peso;
+	static double altura;
+	
+	public static double calculaIMC() {
+		return peso/(altura*altura);
+	}
+	
+
+}
