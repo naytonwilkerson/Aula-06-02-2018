@@ -23,7 +23,6 @@ public class funcionario {
 			System.out.printf("Salario: %.2f\n", salario);
 			
 			System.out.println();
-
 		}
 
 	}
